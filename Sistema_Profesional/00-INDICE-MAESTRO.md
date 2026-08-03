@@ -6,7 +6,7 @@
 | Código | Módulo | Estado | Última revisión | Versión |
 | --- | --- | --- | --- | --- |
 | 00 | Arquitectura del sistema | Creada | 31/07/2026 | 0.1.0 |
-| 01 | Identidad y Marco Profesional | Pendiente | 31/07/2026 | 0.1 |
+| 01 | Identidad y Marco Profesional | Vigente | 03/08/2026 | 1.0 |
 | 02 | Puesta en Marcha | Pendiente | 31/07/2026 | 0.1 |
 | 03 | Gestión Administrativa y Fiscal | Pendiente | 31/07/2026 | 0.1 |
 | 04 | Práctica Clínica | Pendiente | 31/07/2026 | 0.1 |
