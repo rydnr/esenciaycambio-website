@@ -1,5 +1,20 @@
 # Registro de cambios
 
+## [Arquitectura-2026-08-08]
+
+### Añadido
+- Carta Fundacional del Sistema Profesional.
+- Registro de Decisiones de Diseño.
+- Principio de separación entre Sistema Profesional y expedientes clínicos.
+- Arquitectura del Módulo 03 — Herramientas Profesionales.
+- Arquitectura del Módulo 04 — Proceso Clínico.
+
+### Modificado
+- Reorganización de la arquitectura documental.
+- Preservación y reubicación de la arquitectura administrativa/fiscal previa dentro del Módulo 02.
+- Separación explícita entre herramientas y proceso clínico.
+- Incorporación del principio de documentación al servicio de la clínica.
+
 ## [1.0.0] - 2026-08-03
 
 ### Añadido
