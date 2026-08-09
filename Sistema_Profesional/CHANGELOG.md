@@ -5,6 +5,7 @@
 ### Añadido
 - Carta Fundacional del Sistema Profesional.
 - Registro de Decisiones de Diseño.
+- Documento de contexto y continuidad del trabajo realizado en el Sistema Profesional.
 - Principio de separación entre Sistema Profesional y expedientes clínicos.
 - Arquitectura del Módulo 03 — Herramientas Profesionales.
 - Arquitectura del Módulo 04 — Proceso Clínico.

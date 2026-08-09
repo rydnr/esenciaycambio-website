@@ -21,6 +21,7 @@
 | Código | Documento | Estado | Última revisión | Versión |
 | --- | --- | --- | --- | --- |
 | 00.00 | Carta Fundacional del Sistema Profesional | Vigente | 08/08/2026 | 1.0 |
+| 00.01 | Contexto de Trabajo y Continuidad | Activo | 09/08/2026 | 0.1 |
 | DD | Decisiones de Diseño | Activo | 08/08/2026 | 1.0 |
 
 ## Criterio estructural
