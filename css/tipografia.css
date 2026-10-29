@@ -1,0 +1,403 @@
+:root {
+  --ec-font-hero: 3rem;
+  --ec-font-section: 1.875rem;
+  --ec-font-card: 1.25rem;
+  --ec-font-page: 2.25rem;
+  --ec-font-article: 2.125rem;
+  --ec-section-space: 56px;
+  --ec-layout-gap: 36px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+.eyebrow,
+.section-kicker,
+.service-tag {
+  letter-spacing: 0;
+}
+
+h2,
+.section h2,
+.reflections-home h2 {
+  margin-bottom: 18px;
+  font-size: var(--ec-font-section);
+  line-height: 1.25;
+  overflow-wrap: normal;
+}
+
+.hero {
+  min-height: 520px;
+  padding-block: 56px 48px;
+  align-items: center;
+}
+
+.hero-content {
+  width: min(720px, 100%);
+  max-width: 720px;
+  padding-bottom: 0;
+}
+
+.hero h1 {
+  max-width: 720px;
+  margin-bottom: 20px;
+  font-size: var(--ec-font-hero);
+  line-height: 1.2;
+  overflow-wrap: normal;
+}
+
+.hero-copy {
+  max-width: 640px;
+  margin-bottom: 24px;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.eyebrow,
+.section-kicker,
+.service-tag {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.section,
+.sheet {
+  padding-block: var(--ec-section-space);
+}
+
+.section[id],
+.section [id] {
+  scroll-margin-top: 96px;
+}
+
+.intro-grid,
+.workspace,
+.services-layout,
+.quote-row,
+.about,
+.trust-intro,
+.contact {
+  gap: var(--ec-layout-gap);
+}
+
+.section-heading,
+.section-heading.compact {
+  margin-bottom: 24px;
+}
+
+.services-layout,
+.trust-intro {
+  margin-bottom: 24px;
+}
+
+.services-layout .section-heading,
+.trust-intro .section-heading,
+.reflections-heading-row .section-heading {
+  margin-bottom: 0;
+}
+
+.section-heading::after {
+  height: 2px;
+  margin-top: 14px;
+}
+
+.sheet-divider {
+  margin-block: 32px;
+}
+
+.workspace,
+.workspace-copy,
+.intro-grid > p,
+.contact-copy,
+.contact-form {
+  padding: 22px;
+}
+
+.section-heading p,
+.workspace-copy p,
+.about p,
+.contact-copy p,
+.service-card p,
+.value-grid article:not(.value-logo-card) p,
+.phase-grid p,
+.trust-grid p,
+.method-strip p {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.service-card h3,
+.value-grid article:not(.value-logo-card) h3,
+.value-logo-card h3,
+.phase-grid h3,
+.trust-grid h3,
+.method-strip h3,
+.access-strip h3 {
+  margin-bottom: 12px;
+  font-size: var(--ec-font-card);
+  line-height: 1.35;
+}
+
+.service-card,
+.value-grid article:not(.value-logo-card),
+.value-logo-card,
+.phase-grid article,
+.trust-grid article,
+.method-strip article,
+.method-strip article:nth-child(2),
+.method-strip article:nth-child(3) {
+  min-height: 0;
+  padding: 22px;
+}
+
+.service-card > p:last-child,
+.value-grid article > p:last-child,
+.phase-grid article > p:last-child,
+.trust-grid article > p:last-child,
+.method-strip article > p:last-child {
+  margin-bottom: 0;
+}
+
+.service-tag {
+  margin-bottom: 18px;
+}
+
+.service-list {
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.value-grid article:not(.value-logo-card) span,
+.phase-grid span {
+  margin-bottom: 16px;
+}
+
+.trust-grid article::after {
+  top: 14px;
+  right: 16px;
+  font-size: 3rem;
+}
+
+.access-strip {
+  gap: 20px;
+  padding: 22px;
+}
+
+blockquote {
+  padding: 26px;
+  font-size: 1.375rem;
+  line-height: 1.5;
+}
+
+.reflection-list {
+  gap: 10px;
+}
+
+.reflection-list p {
+  min-height: 60px;
+  padding: 14px;
+}
+
+.workspace-points span,
+.credentials span {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+}
+
+.button,
+input,
+select,
+textarea {
+  font-size: 1rem;
+}
+
+.contact-details .contact-email {
+  font-size: 1rem;
+}
+
+.reflections-heading-row {
+  margin-bottom: 24px;
+}
+
+.reflection-feature {
+  gap: 32px;
+  padding-block: 24px;
+}
+
+.reflection-feature-copy h2,
+.reflection-feature-copy h3 {
+  margin-bottom: 14px;
+  font-size: 1.5rem;
+  line-height: 1.35;
+}
+
+.reading-main {
+  padding-block: 24px 48px;
+}
+
+.breadcrumbs {
+  margin-bottom: 26px;
+}
+
+.reflections-page-header {
+  margin-bottom: 28px;
+}
+
+.reflections-page-header h1 {
+  margin-bottom: 16px;
+  font-size: var(--ec-font-page);
+  line-height: 1.2;
+}
+
+.reflections-page-header > p:last-child {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.article-header {
+  padding-bottom: 22px;
+}
+
+.article-header h1 {
+  margin-bottom: 22px;
+  font-size: var(--ec-font-article);
+  line-height: 1.25;
+}
+
+.article-body {
+  padding-top: 24px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.article-body p {
+  margin-bottom: 18px;
+}
+
+.article-body h2 {
+  margin: 30px 0 18px;
+  font-size: 1.375rem;
+  line-height: 1.35;
+}
+
+.article-signature {
+  margin-top: 24px;
+}
+
+.article-contact {
+  margin-top: 30px;
+  padding-block: 22px;
+}
+
+.article-contact h2 {
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 980px) {
+  :root {
+    --ec-font-hero: 2.5rem;
+    --ec-font-section: 1.75rem;
+    --ec-section-space: 44px;
+    --ec-layout-gap: 28px;
+  }
+}
+
+@media (max-width: 680px) {
+  :root {
+    --ec-font-hero: 2rem;
+    --ec-font-section: 1.5rem;
+    --ec-font-card: 1.125rem;
+    --ec-font-page: 1.75rem;
+    --ec-font-article: 1.75rem;
+    --ec-section-space: 36px;
+    --ec-layout-gap: 24px;
+  }
+
+  .hero {
+    min-height: 0;
+    padding-block: 44px 36px;
+  }
+
+  .hero-content,
+  .intro-grid > *,
+  .workspace > *,
+  .services-layout > *,
+  .about > div,
+  .contact > * {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    margin-bottom: 18px;
+  }
+
+  .hero-copy {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  .workspace,
+  .workspace-copy,
+  .intro-grid > p,
+  .contact-copy,
+  .contact-form,
+  .service-card,
+  .value-grid article:not(.value-logo-card),
+  .value-logo-card,
+  .phase-grid article,
+  .trust-grid article,
+  .method-strip article,
+  .method-strip article:nth-child(2),
+  .method-strip article:nth-child(3),
+  .access-strip {
+    padding: 18px;
+  }
+
+  .sheet-divider {
+    margin-block: 26px;
+  }
+
+  .reflection-feature {
+    gap: 20px;
+    padding-block: 20px;
+  }
+
+  .reflection-feature-copy h2,
+  .reflection-feature-copy h3 {
+    font-size: 1.375rem;
+  }
+
+  .reflections-heading-row {
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+
+  .reading-main {
+    padding-block: 20px 36px;
+  }
+
+  .breadcrumbs {
+    margin-bottom: 22px;
+  }
+
+  .article-body h2 {
+    margin-top: 28px;
+    font-size: 1.25rem;
+  }
+
+  .article-contact {
+    margin-top: 26px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
