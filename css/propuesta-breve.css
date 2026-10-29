@@ -1,0 +1,327 @@
+.brief-proposal .hero {
+  min-height: 0;
+  padding-block: 48px;
+}
+
+.brief-proposal .hero-copy {
+  max-width: 620px;
+  margin-bottom: 18px;
+}
+
+.brief-proposal .hero-introduction {
+  margin-bottom: 0;
+}
+
+.brief-proposal .hero h1 {
+  font-size: 2.5rem;
+}
+
+.brief-proposal .hero::after {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.94) 50%, rgba(255, 255, 255, 0.16));
+}
+
+.site-nav .nav-contact {
+  color: var(--brand-green-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--brand-sage);
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+
+.brief-services-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 12px 36px;
+  align-items: start;
+}
+
+.brief-services-heading .section-kicker {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.brief-services-heading h2,
+.brief-services-heading > p:last-child {
+  margin: 0;
+}
+
+.brief-therapy-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 36px;
+  align-items: center;
+}
+
+.brief-therapy-photo {
+  aspect-ratio: 3 / 2;
+}
+
+.brief-therapy-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+}
+
+.brief-therapy-copy h3,
+.brief-professional-support h3 {
+  margin: 0 0 14px;
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 1.35;
+  color: var(--brand-mauve-ink);
+}
+
+.brief-therapy-copy > p,
+.brief-professional-support p,
+.brief-special-focus {
+  color: var(--muted);
+}
+
+.brief-therapy-copy .consultation-intro {
+  margin-bottom: 10px;
+}
+
+.brief-consultation-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+}
+
+.brief-consultation-list li {
+  padding-left: 14px;
+  border-left: 3px solid var(--brand-mauve);
+}
+
+.brief-special-focus {
+  margin: 26px 0 0;
+  padding: 4px 0 4px 18px;
+  border-left: 3px solid var(--brand-mauve);
+}
+
+.brief-special-focus strong {
+  color: var(--brand-mauve-ink);
+}
+
+.brief-professional-support {
+  display: grid;
+  grid-template-columns: minmax(0, 0.65fr) minmax(0, 1.35fr);
+  gap: 28px;
+  margin-top: 26px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.brief-professional-support h3 {
+  margin: 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--brand-sage);
+  font-size: 1.25rem;
+  color: var(--brand-green-ink);
+}
+
+.brief-professional-support p {
+  margin-bottom: 0;
+}
+
+.brief-about {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.brief-about .single-profile-photo {
+  width: 220px;
+  align-self: center;
+}
+
+.brief-about h2 {
+  margin-bottom: 8px;
+}
+
+.brief-about .brief-qualification {
+  margin-bottom: 18px;
+  color: var(--brand-mauve-ink);
+  font-weight: 600;
+}
+
+.brief-about > div > p:last-child {
+  margin-bottom: 0;
+}
+
+.brief-proposal .brief-contact {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.brief-email-contact {
+  margin: 0;
+  min-width: 0;
+}
+
+.brief-email-contact .contact-email {
+  width: fit-content;
+  max-width: 100%;
+  padding: 18px 22px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.session-info {
+  margin-bottom: 0;
+}
+
+.copy-email-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-top: 12px;
+  min-height: 44px;
+}
+
+.copy-email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 0;
+  color: var(--brand-green-ink);
+  background: transparent;
+  border: 0;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copy-email[hidden] {
+  display: none;
+}
+
+.copy-email:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.copy-email:focus-visible,
+.nav-contact:focus-visible {
+  outline: 2px solid var(--brand-mauve-ink);
+  outline-offset: 4px;
+}
+
+.copy-status,
+.reflection-date,
+.article-date {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.brief-email-contact .copy-status {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  font-weight: 400;
+}
+
+.reflection-feature-copy .reflection-author {
+  margin-bottom: 4px;
+}
+
+.article-date {
+  margin: 16px 0 0;
+}
+
+.brief-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 980px) {
+  .brief-services-heading {
+    display: block;
+  }
+
+  .brief-services-heading .section-kicker {
+    margin-bottom: 14px;
+  }
+
+  .brief-services-heading h2 {
+    margin-bottom: 18px;
+  }
+
+  .brief-therapy-layout {
+    gap: 24px;
+  }
+
+  .brief-about {
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .brief-about .single-profile-photo {
+    width: 180px;
+  }
+
+  .brief-proposal .brief-contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+  }
+
+}
+
+@media (max-width: 680px) {
+  .brief-therapy-layout,
+  .brief-professional-support {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .brief-proposal .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .brief-proposal .hero::after {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .brief-therapy-copy h3 {
+    font-size: 1.375rem;
+  }
+
+  .article-body p {
+    text-align: start;
+    hyphens: none;
+    -webkit-hyphens: none;
+  }
+
+  .brief-proposal .hero {
+    min-height: 0;
+    padding-block: 36px;
+  }
+
+  .brief-about,
+  .brief-proposal .brief-contact {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .brief-about .single-profile-photo {
+    width: 160px;
+    justify-self: start;
+  }
+
+  .brief-email-contact .contact-email {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
